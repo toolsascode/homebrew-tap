@@ -5,7 +5,7 @@
 class Gomodeler < Formula
   desc "Go Modeler is a small CLI and Library that brings the powerful features of the golang template into a simplified form."
   homepage "https://github.com/toolsascode/gomodeler"
-  version "0.1.0-beta"
+  version "0.1.0-beta.1"
   license "Apache License 2.0"
 
   depends_on "git"
@@ -13,8 +13,8 @@ class Gomodeler < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/toolsascode/gomodeler/releases/download/v0.1.0-beta/gomodeler_Darwin_x86_64.tar.gz"
-      sha256 "b8e69caece2d8576c5b5f8fd2b8360cc9e80842975c5503890f9f64a55e55780"
+      url "https://github.com/toolsascode/gomodeler/releases/download/v0.1.0-beta.1/gomodeler_Darwin_x86_64.tar.gz"
+      sha256 "21b572a3a9a10aed7ede04e4cb76b25c945b82b86eb7fb090af47359c0165f0f"
 
       def install
         bin.install "gomodeler"
@@ -25,8 +25,8 @@ class Gomodeler < Formula
       end
     end
     on_arm do
-      url "https://github.com/toolsascode/gomodeler/releases/download/v0.1.0-beta/gomodeler_Darwin_arm64.tar.gz"
-      sha256 "4f2938c7179e53c71a20f3e653de2cd86856dbc2f1917aa0b39c817649d484ab"
+      url "https://github.com/toolsascode/gomodeler/releases/download/v0.1.0-beta.1/gomodeler_Darwin_arm64.tar.gz"
+      sha256 "f7ed0601e69d5ad684642ff4102a4b948a4d65ff00f3de11aaa02a985233f927"
 
       def install
         bin.install "gomodeler"
@@ -41,8 +41,8 @@ class Gomodeler < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/toolsascode/gomodeler/releases/download/v0.1.0-beta/gomodeler_Linux_x86_64.tar.gz"
-        sha256 "2fa5ec86038846c97bd5f4dfdfe99e0284a273ee57dbad5a4713be00ebe4d48b"
+        url "https://github.com/toolsascode/gomodeler/releases/download/v0.1.0-beta.1/gomodeler_Linux_x86_64.tar.gz"
+        sha256 "5e628c9a0fe8ab79db255d5ada3eeaa053205c2f6a39b68f6015abac60e5a910"
 
         def install
           bin.install "gomodeler"
@@ -55,8 +55,8 @@ class Gomodeler < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/toolsascode/gomodeler/releases/download/v0.1.0-beta/gomodeler_Linux_arm64.tar.gz"
-        sha256 "b0dca125de21eabbc7e1adfb891bc60cdd42966bfe3f6361a2ea45a4db328c12"
+        url "https://github.com/toolsascode/gomodeler/releases/download/v0.1.0-beta.1/gomodeler_Linux_arm64.tar.gz"
+        sha256 "370847f4d15d3b77f67f7d2d030f31e3490062f25fc94feeb8801237873d08a3"
 
         def install
           bin.install "gomodeler"

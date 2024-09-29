@@ -14,7 +14,7 @@ class HelmS3Publisher < Formula
   on_macos do
     on_intel do
       url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.0/helm-s3-publisher_Darwin_x86_64.tar.gz"
-      sha256 "e388f089b1c2dbf1269f4eb22ae4165067dfed73578a966b5f4a64e01fa3a292"
+      sha256 "338ea1a2384defe9f15f27d9125fb32caf059d1585f7e18e17def8f052daaf8c"
 
       def install
         bin.install "helm-s3-publisher"
@@ -26,7 +26,7 @@ class HelmS3Publisher < Formula
     end
     on_arm do
       url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.0/helm-s3-publisher_Darwin_arm64.tar.gz"
-      sha256 "3283925de42b9a688b05027a27ce4680922ab8506a00730b63dd9e412c528ded"
+      sha256 "8455b3a893aa506844bfc55eeeb51595dd91790a32a1e334d876129c34d2458f"
 
       def install
         bin.install "helm-s3-publisher"
@@ -42,7 +42,7 @@ class HelmS3Publisher < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.0/helm-s3-publisher_Linux_x86_64.tar.gz"
-        sha256 "4c37f53fd0f5bbc8427491833f385124c77733762ec74c83e38436be9f91f03e"
+        sha256 "be3b6eb743c1b48d91f15318056482ef5e5ea8b45a3ca79372ee524b218122ed"
 
         def install
           bin.install "helm-s3-publisher"
@@ -56,7 +56,7 @@ class HelmS3Publisher < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.0/helm-s3-publisher_Linux_arm64.tar.gz"
-        sha256 "09b1d08ec311bdd901ab19f7062f68f3109c993e50f5b1abef19a4fb33b18f3f"
+        sha256 "e0cfdcef9cbc2e55b33b2b06368ad6709e00dd99c5dac34dea10d2ce6e9b94e8"
 
         def install
           bin.install "helm-s3-publisher"

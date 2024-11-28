@@ -1,9 +1,12 @@
-# homebrew-tap for Go Modeler CLI
+# Private homebrew-tap Repository
 
-Go Modeler is a small CLI and Library that brings the powerful features of the golang template into a simplified form.
-
-Homebrew Formula to @gomodeler binaries, powered by @gomodeler
+Homebrew library repository.
 
 ```sh
-brew install toolsascode/tap/gomodeler
+brew install toolsascode/tap/{formula}
 ```
+
+## Formulas
+
+- gomodeler
+- helm-s3-publisher

@@ -5,7 +5,7 @@
 class HelmS3Publisher < Formula
   desc "Go Modeler is a small CLI and Library that brings the powerful features of the golang template into a simplified form."
   homepage "https://github.com/toolsascode/helm-s3-publisher"
-  version "1.0.0"
+  version "1.0.1"
   license "Apache License 2.0"
 
   depends_on "git"
@@ -13,8 +13,8 @@ class HelmS3Publisher < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.0/helm-s3-publisher_Darwin_x86_64.tar.gz"
-      sha256 "22174373ee71e907e9d5bca34d7394caa6c2a88448bd2d9b91e792a40fd7c2a7"
+      url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.1/helm-s3-publisher_Darwin_x86_64.tar.gz"
+      sha256 "3e62d0cbd6d41b5420f98a1e81f2fead4a333ba09852265bbc2aff3768ddfbde"
 
       def install
         bin.install "helm-s3-publisher"
@@ -25,8 +25,8 @@ class HelmS3Publisher < Formula
       end
     end
     on_arm do
-      url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.0/helm-s3-publisher_Darwin_arm64.tar.gz"
-      sha256 "2654f4e33d0e330cf32dcc738c089ac2339c78a802fe309a190e5dab12cfee9f"
+      url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.1/helm-s3-publisher_Darwin_arm64.tar.gz"
+      sha256 "997fc46759a4d68b09c92b82f65ceab37f5cb41a89e044c12d65b8e4328f7fd4"
 
       def install
         bin.install "helm-s3-publisher"
@@ -41,8 +41,8 @@ class HelmS3Publisher < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.0/helm-s3-publisher_Linux_x86_64.tar.gz"
-        sha256 "7271989f56065a5acec4fb31a506291c16550f959e08cb0c7d73292dfb06be6d"
+        url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.1/helm-s3-publisher_Linux_x86_64.tar.gz"
+        sha256 "e6e8d702487f009274d727aea9b0dd4026778eb49a502bd0871669e9d0528204"
 
         def install
           bin.install "helm-s3-publisher"
@@ -55,8 +55,8 @@ class HelmS3Publisher < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.0/helm-s3-publisher_Linux_arm64.tar.gz"
-        sha256 "cdec76647bae7b874cd4845d5729aff21f85117292418c954172f2b44f19d13d"
+        url "https://github.com/toolsascode/helm-s3-publisher/releases/download/v1.0.1/helm-s3-publisher_Linux_arm64.tar.gz"
+        sha256 "c45392507196a8db7746bddf0331147032ca621224c4823393a2b8a2fad80f84"
 
         def install
           bin.install "helm-s3-publisher"

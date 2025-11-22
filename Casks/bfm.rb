@@ -3,7 +3,7 @@ cask "bfm" do
   name "bfm"
   desc "BfM - Backend for Migrations CLI"
   homepage "https://github.com/toolsascode/bfm"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "bfm" do
   on_macos do
     on_intel do
       url "https://github.com/toolsascode/bfm/releases/download/v#{version}/bfm_#{version}_darwin_amd64.tar.gz"
-      sha256 "be6d9ba90e9104560cf46df24eaa330f5919496bf72723e72f48d9b129206400"
+      sha256 "b0fe36daf374545301e29f57eae0c8958ecdb4e8d2415f593af8f604b3faa220"
     end
     on_arm do
       url "https://github.com/toolsascode/bfm/releases/download/v#{version}/bfm_#{version}_darwin_arm64.tar.gz"
-      sha256 "e6a29896d2e2b50360ef5f551524165ba1a13399501c101d55c2693d60719dd0"
+      sha256 "7c4b5da023819fa6594103845d0502ff796c72a6fcd18e19bee5dbc6f9a38e5d"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/toolsascode/bfm/releases/download/v#{version}/bfm_#{version}_linux_amd64.tar.gz"
-      sha256 "c8317f455a0f6188dbd320a622fc0527c65d667a7f2436c7f613b9e13423e7c8"
+      sha256 "d038e23b4844e8e73105bedafe493218a6e58d16966df568b014befd7cbf80c5"
     end
     on_arm do
       url "https://github.com/toolsascode/bfm/releases/download/v#{version}/bfm_#{version}_linux_arm64.tar.gz"
-      sha256 "4b1db516af53d2f40245efed1709e382df915caa409afa87feafda0894d6112a"
+      sha256 "81b1bb6c2feffc32215ee710f66a6d5fb68d474237a9d7a5b9e775d1097986c7"
     end
   end
 
